@@ -16,3 +16,7 @@ print('The worst of the friends is', friend[2])
 friend[2] = "Chandler"
 
 print("The funny friends are", friend[2:5])
+
+print(random.choice(friend))
+
+print(random.choice(friend), "is at the door")
