@@ -42,3 +42,10 @@ print(len(all_friends))
 
 all_friends_again = my_friends + friend
 print(len(all_friends_again))
+
+for i in reversed(friend):
+    print(i)
+
+
+for i in friend:
+    print(i * 4)
