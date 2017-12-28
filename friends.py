@@ -49,3 +49,19 @@ for i in reversed(friend):
 
 for i in friend:
     print(i * 4)
+
+for i in friend:
+    if i == 'Joey':
+        print("How you doing?")
+    elif i == "Chandler":
+        print("HAHAHAHAH")
+    elif i == "Ross":
+        print("Annoying")
+    elif i == "Monica":
+        print("Relatable")
+    elif i == "Phoebe":
+        print("Growing on me")
+    elif i == "Rachael":
+        print("Always seems to be cold")
+    else:
+        print(i)
