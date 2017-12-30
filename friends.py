@@ -65,3 +65,22 @@ for i in friend:
         print("Always seems to be cold")
     else:
         print(i)
+
+
+super_heroes = {'Spider-Man' : 'Peter Parker',
+                'Iron Man' : 'Tony Stark',
+                'Batman' : 'Bruce Wayne'}
+
+print(super_heroes['Batman'])
+
+del super_heroes['Batman']
+
+print(super_heroes)
+
+super_heroes['Spider-Man'] = 'Miles Moralis'
+
+print(super_heroes)
+
+print(super_heroes.keys())
+
+print(super_heroes.values())
